@@ -1,0 +1,168 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "Montserrat-black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat-Bold";
+  font-size: 1.5rem;
+}
+
+p {
+  color: #bf8f8f;
+}
+
+#title {
+  background-color: #1b2a49;
+  color: white;
+}
+
+#btn2 {
+  margin-bottom: 2px;
+}
+
+#features {
+  padding: 7% 15%;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #1b2a49;
+  color: white;
+}
+
+#press {
+  background-color: #1b2a49;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#footer {
+  background-color: #1b2a49;
+  margin-bottom: 0px;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#testinomial-carousel {
+  padding: 7% 15%;
+}
+
+#partners {
+  padding: 100px;
+  text-align: center;
+}
+
+#cta {
+  font-family: "Montserrat-black";
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.row {
+  padding-top: 80px;
+}
+
+.partners-row {
+  padding-top: 50px;
+}
+
+.col-lg-6 {
+  padding-left: 10px;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.title-img {
+  width: 125%;
+  transform: rotate(3deg);
+}
+
+.navbar {
+  padding: 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+.download-btm {
+  margin: 5% 3% 5%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.partners-col {
+  padding: 3% 2%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.testimonials-pic {
+  width: 50%;
+  border-radius: 10%;
+  padding: 20px;
+  margin: 20px;
+}
+
+.features-box {
+  text-align: center;
+  padding: 1%;
+}
+
+.icon {
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.card-body-image {
+  width: 250px;
+  height: 200px;
+}
+
+.icon:hover {
+  color: #293462;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 75%;
+  }
+}
